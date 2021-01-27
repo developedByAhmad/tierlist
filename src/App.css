@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+  max-width: 100wh;
+}
+@import 'antd/dist/antd.css';
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.avatar {
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.center
+{
+
+}
+.createRank
+{
+  justify-content: center;
+  display: flex;
+  color: black;
+  background-color: transparent;
+  border: 2px solid #ad1932;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 27px;
+
+border-radius: 8px;
+}
+.error-msg
+{
+  color:#ff4d4f;
+  font-size: 14px;
+
+}
+.createRank:hover{
+  color: white;
+  background-color: #ad1932;
+  border: 2px Solid White;
+}
+.Admin-heading
+{
+  font-size: 23px;
+  color: white;
+}
+.Admin-heading:hover{
+  color: black;
+  cursor: pointer;
+}
+.Youtube-button{
+  border: 1px solid #ad1932 ;
+  border-radius: 10px;
+  font-size: 18px;
+  color:#ad1932;
+  padding:7px
+}
+.S-tier
+{
+  background-color:#ad1932;
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+width: 100px;
+font-size: 30px;
+}
+.right
+{
+  float:right;
+}
+.Approved
+{
+  /* -ms-transform: rotate(20deg);  */
+  transform: rotate(-5deg); 
+  width: 190px;
+  font-size: 19px;
+  margin-right: 5px;
+  font-weight: bold;
+  border: 2px solid #ad1932;
+  color:#ad1932;
+  border-radius: 20px;
+  height: 40px;
+}
+
+/* Ant deign Change in built in  */
+.ant-modal-close
+{
+  display: none;
+}
+.Youtube-button:hover
+{
+  background-color: #ad1932;
+  color:white;
+  cursor: pointer;
+ 
+}
+.margin-top-bottom
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Apple-button
+{
+  width: 200px;
+  border-radius: 4px;
+  color:white;
+  cursor: pointer;
+  background-color: #89b3d9;
+  padding: 10px;
+}
+.Google-button
+{
+  width: 200px;
+  cursor: pointer;
+  border-radius: 4px;
+  color:white;
+  background-color:#66cc64;
+  padding: 10px;
+}
+.ant-modal
+{
+  width: 1000px !important;
+}
+.Youtube-button-text
+{
+  font-size: 14px;
+  color:#ad1932
+}
+.Youtube-button-text:hover
+{
+  color:white
+}
+.Card
+{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+.center
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+.Login-button
+
+{
+  background-color: transparent;
+  width: 100px;
+  border-radius: 10px;
+  padding-bottom: 38px;
+  font-weight: bold;
+  color:black;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #ad1932;
+}
+.button-margin
+{
+  margin-top: 20px;
+}
+.Login-button:hover
+{
+ background-color: #ad1932;
+ border: 2px solid #ad1932;
+ Color:white
+}
+.login-container
+{
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  background-color:#ad1932 !important;
+}
+.signup-inner-container
+{
+  background-color: #ad1932 !important;
+  margin-top: 200px;
+
+}
+.image-button
+{
+  height: 45px;
+  width: 130px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  margin: auto;
+  
+
+
+
+}
+.login-design
+{
+  border-radius: 20px;
+  padding:20px;
+
+}
+.heading
+{
+  color:black;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  /* margin-top: 100px; */
+
+}
+.container
+{
+  max-width: 1000px !important;
+  background-color: white;
+  /* display: flex;
+  justify-content: center; */
+
+}
+.login
+{
+  display: flex;
+  justify-content: center;
+  background-color: #ad1932;
+  margin-top: 100px;
+}
+/* .login-container{
+  background-color: #ad1932 !important;
+} */
+.ant-layout-sider-trigger
+{
+  background-color:#ad1932 ;
+  position: none !important;
+}
+.backgroundColor
+{
+  background-color: #ad1932;
+}
+.margin-100
+{
+  margin-top: 100px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
